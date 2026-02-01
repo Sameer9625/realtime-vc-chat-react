@@ -1,34 +1,16 @@
-# ConnectX 🚀  
-A real-time communication web application built with React and ZEGOCLOUD that supports video calling, voice calling, live chat, and screen sharing.
+# React + Vite
 
-## 📖 Overview
-ConnectX is a modern real-time communication platform designed to provide seamless and reliable peer-to-peer interaction. By integrating **ZEGOCLOUD’s real-time engagement SDK**, the application delivers high-quality video calls, voice calls, instant messaging, and screen sharing with low latency and high performance.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## ✨ Features
-- 🎥 High-quality Video Calling  
-- 📞 Crystal-clear Voice Calling  
-- 💬 Real-time Chat  
-- 🖥 Screen Sharing  
-- 👥 Multi-user communication  
-- ⚡ Low-latency and scalable architecture  
+Currently, two official plugins are available:
 
-## 🛠 Tech Stack
-- **Frontend:** React.js  
-- **Real-time Communication:** ZEGOCLOUD SDK  
-- **Architecture:** Client-side real-time streaming  
-- **Styling:** CSS / Tailwind CSS (update if applicable)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 📌 Use Cases
-- Video conferencing & online meetings  
-- Remote collaboration and teamwork  
-- Virtual classrooms and learning platforms  
-- Real-time communication apps  
+## React Compiler
 
-### Prerequisites
-- Node.js (v16 or above)
-- npm or yarn
-- ZEGOCLOUD account (AppID & ServerSecret)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
+## Expanding the ESLint configuration
 
-npm install
-npm start
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
